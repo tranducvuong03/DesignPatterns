@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="DecoratorPattern\" />
-    <Folder Include="TaiLieu\" />
   </ItemGroup>
 
 </Project>
