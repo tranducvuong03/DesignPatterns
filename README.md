@@ -7,4 +7,3 @@ Tài liệu tổng hợp quá trình học và triển khai các mẫu thiết k
 - [Strategy Pattern](TaiLieu/strategy.md)
 - [Decorator Pattern](TaiLieu/decorator.md)
 - [Factory Pattern](TaiLieu/factory.md)
-- [Tổng kết](#summary)
