@@ -1,3 +1,4 @@
+[Quay lại trang chính](../README.md)
 
 ## 3. Factory Pattern
 
@@ -45,3 +46,5 @@ public class NYPizzaStore : PizzaStore
 }
 ```
 Khi nào nên dùng Factory: khi quá trình tạo object phức tạp, khi muốn tách logic khởi tạo khỏi business logic, khi cần thay đổi loại object mà không ảnh hưởng client.
+
+[Quay lại trang chính](../README.md)

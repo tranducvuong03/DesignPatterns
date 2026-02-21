@@ -1,3 +1,5 @@
+[Quay lại trang chính](../README.md)
+
 ## 2. Decorator Pattern
 
 > Decorator là mẫu thiết kế cấu trúc cho phép gắn thêm trách nhiệm cho một đối tượng một cách linh hoạt mà không cần sửa đổi class gốc. Đây là cách mở rộng chức năng theo hướng động thay vì tạo ra hàng loạt subclass.
@@ -52,3 +54,5 @@ Console.WriteLine(beverage.GetDescription());
 Console.WriteLine(beverage.Cost());
 ```
 Khi nào nên dùng Decorator: khi cần thêm tính năng linh hoạt cho object, khi không muốn sửa class gốc, khi muốn tránh bùng nổ subclass.
+
+[Quay lại trang chính](../README.md)
