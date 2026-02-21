@@ -13,7 +13,7 @@ Hình minh họa cấu trúc UML
 Ý tưởng cốt lõi là tách phần thay đổi ra khỏi lớp chính và lập trình hướng tới interface thay vì implementation. Thay vì class tự quyết định hành vi, nó ủy quyền hành vi cho một strategy bên ngoài.
 
 Ví dụ Duck trong Head First được viết lại bằng C#
-
+```csharp
 public interface IFlyBehavior
 {
     void Fly();
@@ -48,6 +48,7 @@ public class Duck
         _flyBehavior = flyBehavior;
     }
 }
+```
 
 Khi nào nên dùng Strategy: khi có nhiều biến thể hành vi, khi muốn thay đổi hành vi tại runtime, khi muốn tuân thủ nguyên lý Open Closed và giảm phụ thuộc kế thừa.
 
@@ -63,6 +64,7 @@ Decorator hoạt động bằng cách bọc một object bên trong một object
 
 Ví dụ Starbuzz Coffee trong Head First
 
+```csharp
 public abstract class Beverage
 {
     public abstract string GetDescription();
@@ -93,7 +95,7 @@ public class Mocha : CondimentDecorator
     public override double Cost()
         => _beverage.Cost() + 0.20;
 }
-
+```
 Cách sử dụng
 
 Beverage beverage = new Espresso();
@@ -115,7 +117,7 @@ Hình minh họa Factory Method UML
 Factory giúp giảm coupling giữa client và class cụ thể, đồng thời tuân thủ Dependency Inversion Principle.
 
 Ví dụ Pizza Store trong Head First
-
+```csharp
 public abstract class Pizza
 {
     public abstract void Prepare();
@@ -148,5 +150,5 @@ public class NYPizzaStore : PizzaStore
         return new CheesePizza();
     }
 }
-
+```
 Khi nào nên dùng Factory: khi quá trình tạo object phức tạp, khi muốn tách logic khởi tạo khỏi business logic, khi cần thay đổi loại object mà không ảnh hưởng client.
