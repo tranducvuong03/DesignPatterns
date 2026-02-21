@@ -3,8 +3,8 @@
 Tài liệu tổng hợp quá trình học và triển khai các mẫu thiết kế từ sách Head First Design Patterns. Mục tiêu của repo này là hiểu bản chất thiết kế hướng đối tượng, giảm coupling, tăng khả năng mở rộng và tuân thủ các nguyên lý SOLID.
 
 1. Strategy Pattern
-
-Strategy là mẫu thiết kế hành vi cho phép định nghĩa một họ thuật toán, đóng gói từng thuật toán và làm cho chúng có thể thay thế cho nhau tại runtime. Pattern này giúp loại bỏ việc kế thừa cứng nhắc và giảm các câu lệnh điều kiện phức tạp.
+ 
+> Strategy là mẫu thiết kế hành vi cho phép định nghĩa một họ thuật toán, đóng gói từng thuật toán và làm cho chúng có thể thay thế cho nhau tại runtime. Pattern này giúp loại bỏ việc kế thừa cứng nhắc và giảm các câu lệnh điều kiện phức tạp.
 
 Hình minh họa cấu trúc UML
 
@@ -54,7 +54,7 @@ Khi nào nên dùng Strategy: khi có nhiều biến thể hành vi, khi muốn 
 
 2. Decorator Pattern
 
-Decorator là mẫu thiết kế cấu trúc cho phép gắn thêm trách nhiệm cho một đối tượng một cách linh hoạt mà không cần sửa đổi class gốc. Đây là cách mở rộng chức năng theo hướng động thay vì tạo ra hàng loạt subclass.
+> Decorator là mẫu thiết kế cấu trúc cho phép gắn thêm trách nhiệm cho một đối tượng một cách linh hoạt mà không cần sửa đổi class gốc. Đây là cách mở rộng chức năng theo hướng động thay vì tạo ra hàng loạt subclass.
 
 Hình minh họa cấu trúc UML
 
@@ -108,7 +108,7 @@ Khi nào nên dùng Decorator: khi cần thêm tính năng linh hoạt cho objec
 
 3. Factory Pattern
 
-Factory là nhóm pattern khởi tạo dùng để đóng gói quá trình tạo object. Thay vì client tự khởi tạo bằng từ khóa new, việc tạo object được ủy quyền cho một factory.
+> Factory là nhóm pattern khởi tạo dùng để đóng gói quá trình tạo object. Thay vì client tự khởi tạo bằng từ khóa new, việc tạo object được ủy quyền cho một factory.
 
 Hình minh họa Factory Method UML
 
