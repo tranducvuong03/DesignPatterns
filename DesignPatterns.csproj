@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="DecoratorPattern\" />
+    <Folder Include="SingletonPattern\" />
   </ItemGroup>
 
 </Project>

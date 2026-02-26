@@ -1,6 +1,6 @@
-﻿namespace DesignPatterns.FactoryPattern
+﻿namespace DesignPatterns.FactoryPattern.FactoryMethod
 {
-    public class FullTimeEmployee : Employee
+    public class JapanEmployee : Employee
     {
         public override decimal CalculateSalary()
         {

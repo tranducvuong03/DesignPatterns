@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.FactoryPattern
+﻿namespace DesignPatterns.FactoryPattern.FactoryMethod
 {
     public abstract class Employee
     {
@@ -9,5 +9,12 @@
         }
 
         public abstract decimal CalculateSalary();
+    }
+
+    public enum EmployeeType
+    {
+        FullTime,
+        PartTime,
+        Intern
     }
 }
