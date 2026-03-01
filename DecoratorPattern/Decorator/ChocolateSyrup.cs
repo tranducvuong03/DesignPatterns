@@ -1,4 +1,6 @@
-﻿namespace DesignPattern.DecoratorPattern
+﻿using DesignPatterns.DecoratorPattern.Component;
+
+namespace DesignPatterns.DecoratorPattern.Decorator
 {
     public class ChocolateSyrup : IceCreamDecorator
     {

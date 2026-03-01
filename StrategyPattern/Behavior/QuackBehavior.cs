@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.StrategyPattern
+﻿namespace DesignPatterns.StrategyPattern.Behavior
 {
     public interface QuackBehavior
     {

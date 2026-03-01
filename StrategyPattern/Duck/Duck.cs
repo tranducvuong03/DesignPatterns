@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.StrategyPattern
+﻿using DesignPatterns.StrategyPattern.Behavior;
+
+namespace DesignPatterns.StrategyPattern.Duck
 {
     public abstract class Duck
     {

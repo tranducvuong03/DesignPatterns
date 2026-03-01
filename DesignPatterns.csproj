@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="DecoratorPattern\" />
-    <Folder Include="SingletonPattern\" />
-  </ItemGroup>
-
 </Project>

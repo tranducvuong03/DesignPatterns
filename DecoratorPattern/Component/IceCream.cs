@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.DecoratorPattern
+﻿namespace DesignPatterns.DecoratorPattern.Component
 {
     public abstract class IceCream
     {
