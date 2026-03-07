@@ -1,0 +1,15 @@
+C# không hỗ trợ đa kế thừa nên không làm được kiểu này.
+
+Code C++ (gọi class Turkey trước, xong gọi interface IDuck):
+
+class DuckAdapter : public Turkey, public IDuck {
+public:
+    void quack() override {
+        gobble();               
+    }
+
+    void fly() override {
+        for (int i = 0; i < 3; i++)
+            flyShortDistance();
+    }
+};
