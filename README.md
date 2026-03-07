@@ -4,6 +4,11 @@ Tài liệu tổng hợp quá trình học và triển khai các mẫu thiết k
 
 ## Mục lục
 
-- [Strategy Pattern](TaiLieu/strategy.md)
+- [Adapter Pattern](TaiLieu/adapter.md)
+- [Command Pattern](TaiLieu/command.md)
 - [Decorator Pattern](TaiLieu/decorator.md)
+- [Facade Pattern](TaiLieu/facade.md)
 - [Factory Pattern](TaiLieu/factory.md)
+- [Observer Pattern](TaiLieu/observer.md)
+- [Singleton Pattern](TaiLieu/singleton.md)
+- [Strategy Pattern](TaiLieu/strategy.md)

@@ -1,6 +1,6 @@
 [Quay lại trang chính](../README.md)
 
-## 3. Factory Pattern
+## Factory Pattern
 
 > Factory là nhóm pattern khởi tạo dùng để đóng gói quá trình tạo object. Thay vì client tự khởi tạo bằng từ khóa new, việc tạo object được ủy quyền cho một factory.
 
