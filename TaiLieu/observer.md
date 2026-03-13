@@ -6,7 +6,7 @@
 
 Hình minh họa cấu trúc UML
 
-<p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/observer/structure.png" width="600"/> </p>
+<img width="617" height="433" alt="image" src="https://github.com/user-attachments/assets/000f221b-4621-4cec-ac5d-0fa079f9c118" />
 
 Observer cho phép loose coupling giữa subject và observers.
 
