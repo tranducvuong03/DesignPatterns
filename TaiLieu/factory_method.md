@@ -6,7 +6,8 @@
 
 Hình minh họa Factory Method UML
 
-<p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png" width="600"/> </p>
+<img width="918" height="530" alt="image" src="https://github.com/user-attachments/assets/7fd9413a-538c-4884-829f-bc2cdd3a3227" />
+
 
 Factory giúp giảm coupling giữa client và class cụ thể, đồng thời tuân thủ Dependency Inversion Principle.
 
