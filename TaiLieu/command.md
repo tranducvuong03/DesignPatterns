@@ -6,7 +6,7 @@
 
 Hình minh họa cấu trúc UML
 
-<p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/command/structure.png" width="600"/> </p>
+<img width="956" height="740" alt="image" src="https://github.com/user-attachments/assets/fa17212f-3558-45c6-87de-ffae5bccc731" />
 
 Command cho phép tách biệt invoker khỏi receiver, và hỗ trợ undo.
 
