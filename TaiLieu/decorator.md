@@ -6,7 +6,8 @@
 
 Hình minh họa cấu trúc UML
 
-<p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/decorator/structure.png" width="600"/> </p>
+<img width="919" height="665" alt="image" src="https://github.com/user-attachments/assets/0fe1791e-e7d0-40f3-8e8f-6a1704a87403" />
+
 
 Decorator hoạt động bằng cách bọc một object bên trong một object khác có cùng interface. Nhờ đó có thể xếp chồng nhiều lớp decorator.
 
