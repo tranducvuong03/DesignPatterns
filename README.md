@@ -8,7 +8,7 @@ Tài liệu tổng hợp quá trình học và triển khai các mẫu thiết k
 - [Command Pattern](TaiLieu/command.md)
 - [Decorator Pattern](TaiLieu/decorator.md)
 - [Facade Pattern](TaiLieu/facade.md)
-- [Factory Pattern](TaiLieu/factory.md)
+- [Factory Pattern](TaiLieu/factory_method.md)
 - [Observer Pattern](TaiLieu/observer.md)
 - [Singleton Pattern](TaiLieu/singleton.md)
 - [Strategy Pattern](TaiLieu/strategy.md)
